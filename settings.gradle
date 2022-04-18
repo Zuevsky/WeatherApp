@@ -1,0 +1,5 @@
+rootProject.name = 'weather'
+
+include 'weather-forecast'
+include 'weather-forecast-provider'
+include 'weather-forecast-provider-api'

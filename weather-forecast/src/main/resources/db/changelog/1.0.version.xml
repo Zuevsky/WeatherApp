@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="1" author="Alexey Zuevsky">
+        <comment>1.0.version. Create table CityTempMark</comment>
+        <sql>
+            CREATE TABLE CityTempMark
+            (
+                id            INT PRIMARY KEY,
+                city_name     VARCHAR( 50 ) NOT NULL,
+                temperature   INT NOT NULL,
+                request_time  timestamp NOT NULL
+            );
+        </sql>
+        <rollback>DROP TABLE CityTempMark;</rollback>
+    </changeSet>
+
+    <changeSet id="2" author="Alexey Zuevsky">
+        <comment>1.0.version. Changing table CityTempMark(temperature): type date -> double</comment>
+        <sql>
+            ALTER TABLE CityTempMark
+                ALTER COLUMN temperature SET DATA TYPE DOUBLE PRECISION;
+        </sql>
+    </changeSet>
+
+    <changeSet id="3" author="Alexey Zuevsky">
+        <comment>1.0.version. Create sequence for id in CityTempMark</comment>
+        <sql>
+            CREATE SEQUENCE citytempmark_id_seq START 100 INCREMENT 50;
+        </sql>
+        <rollback>DROP SEQUENCE citytempmark_id_seq;</rollback>
+    </changeSet>
+
+</databaseChangeLog>
