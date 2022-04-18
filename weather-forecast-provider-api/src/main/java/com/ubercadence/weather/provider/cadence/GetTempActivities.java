@@ -1,7 +1,7 @@
 package com.ubercadence.weather.provider.cadence;
 
 import com.uber.cadence.activity.ActivityMethod;
-import com.ubercadence.weather.provider.dto.TempDto;
+import com.ubercadence.weather.dto.TempDto;
 
 public interface GetTempActivities {
 

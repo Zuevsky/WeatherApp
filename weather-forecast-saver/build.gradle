@@ -6,19 +6,17 @@ plugins {
 }
 
 dependencies {
+    implementation project(':weather-forecast-saver-api')
+    implementation project(':weather-forecast-provider-api')
     implementation project(':weather-forecast-util-api')
 
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.uber.cadence:cadence-client:3.6.1'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2.2'
+    implementation 'org.postgresql:postgresql:42.3.4'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
-}
-
-bootJar {
-    enabled = false
-}
-
-jar {
-    enabled = true
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

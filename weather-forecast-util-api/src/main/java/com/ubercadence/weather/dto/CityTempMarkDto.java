@@ -1,4 +1,4 @@
-package com.ubercadence.weather.saver.dto;
+package com.ubercadence.weather.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

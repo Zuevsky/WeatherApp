@@ -1,6 +1,6 @@
 package com.ubercadence.weather.provider.service.temp;
 
-import com.ubercadence.weather.provider.dto.TempDto;
+import com.ubercadence.weather.dto.TempDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

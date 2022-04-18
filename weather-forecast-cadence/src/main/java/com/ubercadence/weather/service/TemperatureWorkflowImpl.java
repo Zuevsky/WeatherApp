@@ -1,10 +1,10 @@
 package com.ubercadence.weather.service;
 
 import com.uber.cadence.workflow.Workflow;
+import com.ubercadence.weather.dto.CityTempMarkDto;
+import com.ubercadence.weather.dto.TempDto;
 import com.ubercadence.weather.provider.cadence.GetTempActivities;
-import com.ubercadence.weather.provider.dto.TempDto;
 import com.ubercadence.weather.saver.cadence.SaveTempActivities;
-import com.ubercadence.weather.saver.dto.CityTempMarkDto;
 
 public class TemperatureWorkflowImpl implements TemperatureWorkflow {
 

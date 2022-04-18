@@ -1,7 +1,7 @@
 package com.ubercadence.weather.service;
 
 import com.uber.cadence.workflow.WorkflowMethod;
-import com.ubercadence.weather.saver.dto.CityTempMarkDto;
+import com.ubercadence.weather.dto.CityTempMarkDto;
 
 public interface TemperatureWorkflow {
 

@@ -1,13 +1,13 @@
 package com.ubercadence.weather.service;
 
 import com.uber.cadence.client.WorkflowClient;
-import com.ubercadence.weather.saver.dto.CityTempMarkDto;
+import com.ubercadence.weather.dto.CityTempMarkDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class TemperatureCadenceService {
+public class TemperatureCadenceServiceImpl implements TemperatureCadenceService {
 
     private final WorkflowClient workflowClient;
 

@@ -1,4 +1,4 @@
-package com.ubercadence.weather.provider.dto;
+package com.ubercadence.weather.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

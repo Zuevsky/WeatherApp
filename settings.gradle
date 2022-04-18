@@ -7,4 +7,7 @@ include 'weather-forecast-saver'
 include 'weather-forecast-saver-api'
 include 'weather-forecast-cadence'
 include 'weather-forecast-cadence-api'
+include 'weather-forecast-cadence-api'
+include 'weather-forecast-util-api'
+include 'weather-forecast-cadence-config'
 
