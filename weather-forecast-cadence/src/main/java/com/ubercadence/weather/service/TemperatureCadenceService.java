@@ -1,4 +1,4 @@
-package com.ubercadence.weather.service.cadence;
+package com.ubercadence.weather.service;
 
 import com.uber.cadence.client.WorkflowClient;
 import com.ubercadence.weather.saver.dto.CityTempMarkDto;
@@ -12,7 +12,7 @@ public class TemperatureCadenceService {
     private final WorkflowClient workflowClient;
 
     public CityTempMarkDto getTemp(String cityName) {
-        var workflow = workflowClient.newWorkflowStub(TemperatureWorkflow.class);
+        TemperatureWorkflow workflow = workflowClient.newWorkflowStub(TemperatureWorkflow.class);
         return workflow.getTemperature(cityName);
     }
 }

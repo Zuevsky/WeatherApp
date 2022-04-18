@@ -1,4 +1,4 @@
-package com.ubercadence.weather.service.cadence;
+package com.ubercadence.weather.service;
 
 import com.uber.cadence.client.WorkflowClient;
 import com.uber.cadence.client.WorkflowClientOptions;
