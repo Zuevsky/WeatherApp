@@ -1,6 +1,6 @@
 package com.ubercadence.weather.controller;
 
-import com.ubercadence.weather.dto.CityTempMarkDto;
+import com.ubercadence.weather.saver.dto.CityTempMarkDto;
 import com.ubercadence.weather.service.cadence.TemperatureCadenceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.ubercadence.weather.domain;
+package com.ubercadence.weather.saver.domain;
 
 import lombok.*;
 

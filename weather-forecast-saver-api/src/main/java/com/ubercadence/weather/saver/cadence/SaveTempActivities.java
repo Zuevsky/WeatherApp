@@ -1,8 +1,8 @@
-package com.ubercadence.weather.service.cadence.savetempworker;
+package com.ubercadence.weather.saver.cadence;
 
 import com.uber.cadence.activity.ActivityMethod;
-import com.ubercadence.weather.dto.CityTempMarkDto;
 import com.ubercadence.weather.provider.dto.TempDto;
+import com.ubercadence.weather.saver.dto.CityTempMarkDto;
 
 public interface SaveTempActivities {
 

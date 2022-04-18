@@ -1,6 +1,6 @@
-package com.ubercadence.weather.repository;
+package com.ubercadence.weather.saver.repository;
 
-import com.ubercadence.weather.domain.CityTempMark;
+import com.ubercadence.weather.saver.domain.CityTempMark;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

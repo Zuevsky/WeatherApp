@@ -3,3 +3,6 @@ rootProject.name = 'weather'
 include 'weather-forecast'
 include 'weather-forecast-provider'
 include 'weather-forecast-provider-api'
+include 'weather-forecast-saver'
+include 'weather-forecast-saver-api'
+

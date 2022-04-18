@@ -1,8 +1,9 @@
-package com.ubercadence.weather.service.cadence.savetempworker;
+package com.ubercadence.weather.saver.service.cadence.savetempworker;
 
-import com.ubercadence.weather.dto.CityTempMarkDto;
 import com.ubercadence.weather.provider.dto.TempDto;
-import com.ubercadence.weather.service.temperature.SaveTempService;
+import com.ubercadence.weather.saver.cadence.SaveTempActivities;
+import com.ubercadence.weather.saver.dto.CityTempMarkDto;
+import com.ubercadence.weather.saver.service.temp.SaveTempService;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

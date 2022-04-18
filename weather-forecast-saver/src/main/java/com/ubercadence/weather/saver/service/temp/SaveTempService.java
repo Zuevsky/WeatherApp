@@ -1,10 +1,10 @@
-package com.ubercadence.weather.service.temperature;
+package com.ubercadence.weather.saver.service.temp;
 
-import com.ubercadence.weather.domain.CityTempMark;
-import com.ubercadence.weather.dto.CityTempMarkDto;
-import com.ubercadence.weather.mapper.CityTempMarkMapper;
 import com.ubercadence.weather.provider.dto.TempDto;
-import com.ubercadence.weather.repository.CityTempMarkRepository;
+import com.ubercadence.weather.saver.domain.CityTempMark;
+import com.ubercadence.weather.saver.dto.CityTempMarkDto;
+import com.ubercadence.weather.saver.mapper.CityTempMarkMapper;
+import com.ubercadence.weather.saver.repository.CityTempMarkRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

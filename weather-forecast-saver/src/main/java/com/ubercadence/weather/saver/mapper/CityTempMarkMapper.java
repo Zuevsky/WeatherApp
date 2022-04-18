@@ -1,8 +1,8 @@
-package com.ubercadence.weather.mapper;
+package com.ubercadence.weather.saver.mapper;
 
-import com.ubercadence.weather.domain.CityTempMark;
-import com.ubercadence.weather.dto.CityTempMarkDto;
 import com.ubercadence.weather.provider.dto.TempDto;
+import com.ubercadence.weather.saver.domain.CityTempMark;
+import com.ubercadence.weather.saver.dto.CityTempMarkDto;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
